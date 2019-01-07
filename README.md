@@ -20,6 +20,7 @@ Base code for TDD workshop in nodeJS
 
 # project setup 
 1. install dependencies 
+```npm install --save express mongoose mocha chai sinon```
 2. define schema 
 3. setup express server
 4. manage mongoose connection 
@@ -38,3 +39,4 @@ Base code for TDD workshop in nodeJS
 2. setup the controller 
 3. run the test cases 
 4. refactor 
+
