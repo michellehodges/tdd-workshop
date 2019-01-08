@@ -1,6 +1,18 @@
+var todos = ["plant seed", "make coffee"]
+
 var helpers = {
-    getAllTodos: function(arrOfTodos) {
-        return arrOfTodos
+    getAllTodos: () => {
+        return todos
+    },
+    addTodos: (userValue) => {
+        todos.push(userValue)
+    },
+    updateTodos: (task, i) => {
+        todos[i] = task  
+        return task
+    },
+    deleteTodo: (i) => {
+        todos.splice(i, 1);
     }
 }
 
