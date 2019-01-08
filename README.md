@@ -8,7 +8,6 @@ Base code for TDD workshop in nodeJS
 - Mongoose 
 - Mocha
 - Chai
-- Sinon
 
 
 # http endpoints and routes 
@@ -20,7 +19,7 @@ Base code for TDD workshop in nodeJS
 
 # project setup 
 1. install dependencies 
-```npm install --save express mongoose mocha chai sinon```
+```npm install --save express mongoose mocha chai```
 2. define schema 
 3. setup express server
 4. manage mongoose connection 
