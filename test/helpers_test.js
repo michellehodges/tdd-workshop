@@ -22,7 +22,8 @@ describe('helpers', function() {
     })
     describe('#deleteById', () => {
         it('should remove an array item by its index', () => {
-            expect(helpers.deleteById(todos, 0)).to.not.include("plant seed")
+            expect(helpers.deleteById(todos, 0)).to.not.include("make coffee")
+            console.log(todos)
         })
     })
 })

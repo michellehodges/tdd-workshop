@@ -14,8 +14,9 @@ var helpers = {
         return arr[x]
     },
     deleteById: function(arr, x){
-        let index = arr(indexOf);
-        return arr.splice(index, x)
+        // let index = arr(indexOf);
+        // let returnedTodos = todos;
+        return arr.splice(x, 1)
     }
 }
 
