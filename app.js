@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var helpers = require('./helpers')
 
-var todos = ["plant seed", "make coffee"]
 
 app.get('/', function (req, res) {
   res.send('Your thing is running!');
